@@ -1,0 +1,14 @@
+$primary: rgb(104, 73, 73);
+$secondary: #fff507;
+/* Here i declare variebles*/
+
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary
+);
+/* here i use maps */
+
+$header-font-size: 18px;
+$main-font-size: $header-font-size * 0.80;
+
+/* here i use math */

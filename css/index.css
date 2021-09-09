@@ -1,0 +1,47 @@
+/* Here i declare variebles*/
+/* here i use maps */
+/* here i use math */
+/* here i use the import function to call in variables */
+body {
+  font-family: "Montserrat";
+  background-color: #fff507;
+}
+
+/* here i use maps*/
+.container1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  /* here i use nesting*/
+}
+.container1 .name {
+  height: 100px;
+  width: 200px;
+  position: relative;
+  text-align: center;
+  color: #684949;
+  font-size: 18px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+.container2 .welcome {
+  position: relative;
+  text-align: center;
+  height: 100px;
+  width: 200px;
+  font-size: 14.4px;
+  padding: 50px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+}
+.container3 .button {
+  position: relative;
+  text-align: center;
+  width: 100px;
+}

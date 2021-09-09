@@ -1,0 +1,53 @@
+
+
+@import 'variables';
+
+/* here i use the import function to call in variables */
+
+body {
+  font-family: 'Montserrat';
+  background-color: map-get($colors, "secondary")
+}
+/* here i use maps*/
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+/* here i use nesting*/
+     .name {
+     height: 100px;
+     width: 200px;
+     position: relative;
+     text-align: center;
+      color: $primary;
+      font-size: $header-font-size;
+     }
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+
+    .welcome {
+      position: relative;
+      text-align: center;
+      height: 100px;
+      width: 200px;
+      font-size: $main-font-size;
+      padding: 50px;
+    }
+    
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+
+    .button {
+      position: relative;
+      text-align: center;
+      width: 100px;
+    }
+}
+
